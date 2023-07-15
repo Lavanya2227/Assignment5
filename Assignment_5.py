@@ -87,7 +87,7 @@ class SavingsAccount(Account):
         print("title:",self.title )   
         print("balance:",self.balance)
         print("interestRate:",self.interestRate)
-a = SavingsAccount("Asish",'5000','5')
+a = SavingsAccount("Asish",5000,5)
 a.printme()  
 
 
